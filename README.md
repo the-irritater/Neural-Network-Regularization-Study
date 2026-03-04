@@ -1,73 +1,64 @@
-# Comparative Study of Neural Network Regularization Techniques
+# Neural Network Regularization Study
 
 ## Project Overview
-This project compares different regularization techniques in neural networks for:
 
-1. Regression (Synthetic Cubic Dataset with Outliers)
-2. Spam Classification (TF-IDF based Text Classification)
+This project focuses on understanding and implementing regularization techniques in Neural Networks to reduce overfitting and improve model generalization.
 
-## Objectives
-- Understand overfitting in deep neural networks
-- Apply L1, L2, Dropout, Batch Normalization, and Data Shuffling
-- Compare Mean Squared Error (Regression)
-- Compare Accuracy and Loss (Classification)
-- Analyze how regularization behaves differently across problem types
+The study compares different regularization methods and evaluates their impact on model performance.
 
 ---
 
-## Techniques Compared
-- No Regularization (Baseline)
+## Objectives
+
+- Understand overfitting in neural networks
+- Implement regularization techniques
+- Compare training and validation performance
+- Analyze bias-variance tradeoff
+
+---
+
+## Techniques Implemented
+
 - L1 Regularization
 - L2 Regularization
 - Dropout
-- Batch Normalization
-- Data Shuffling
+- Early Stopping
 
 ---
 
-##  Key Findings
+## Technologies Used
 
-###  Regression
-- Baseline model overfits noisy outliers
-- L1 and L2 significantly reduce Mean Squared Error
-- Dropout improves robustness
-- Batch Normalization stabilizes training
+- Python
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
 
-### Spam Classification
-- Baseline accuracy ≈ 97–98%
-- Regularization techniques show minimal improvement
-- TF-IDF features are already sparse and well-separated
+---
+
+## Key Observations
+
+- Regularization reduces overfitting significantly
+- Dropout improved generalization
+- L2 regularization stabilized model weights
+- Proper regularization balances bias and variance
+
+---
+
+## Model Evaluation
+
+- Compared training vs validation accuracy
+- Compared loss curves
+- Analyzed performance improvement after regularization
 
 ---
 
 ## Conclusion
 
-Regularization has a strong impact in regression problems with noise and outliers.  
-However, in TF-IDF based spam classification, regularization provides limited improvement because the feature space is already sparse and structured.
+This project strengthened my understanding of:
 
----
+- Overfitting and underfitting
+- Bias-variance tradeoff
+- Neural network optimization
+- Model generalization techniques
 
-## Technologies Used
-- Python
-- TensorFlow / Keras
-- Scikit-learn
-- NLTK
-- Matplotlib
-- Pandas
-- NumPy
-
----
-
-## How to Run
-
-```bash
-pip install -r requirements.txt
-python neural_network_regularizers.py
-```
-
----
-
-## Author
-Sanman Kadam :- https://www.linkedin.com/in/sanman-kadam-7a4990374/
-
-Focus: Machine Learning & Deep Learning
+It demonstrates my ability to analyze and improve deep learning models using statistical reasoning.
