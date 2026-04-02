@@ -85,7 +85,7 @@ Neural-Network-Regularization-Study/
 
 ## Technologies Used
 
-- Python 3.x
+- Python 3.13
 - TensorFlow / Keras
 - NumPy
 - Pandas
