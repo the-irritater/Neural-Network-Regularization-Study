@@ -8,7 +8,7 @@
 |---|---|
 | **Author** | Sanman Kadam |
 | **Domain** | Deep Learning, Regularization, NLP |
-| **Language** | Python 3.x |
+| **Language** | Python 3.13 |
 | **Framework** | TensorFlow / Keras |
 | **Date** | April 2026 |
 
